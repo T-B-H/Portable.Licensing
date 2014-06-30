@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portable.Licensing", "Portable.Licensing\Portable.Licensing.csproj", "{6D2B800C-C252-4A33-BA05-904AE5B79417}"
-EndProject
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{449E5271-6EE5-49BA-AB0E-370978ACD89C}"
 	ProjectSection(SolutionItems) = preProject
 		..\build.fsx = ..\build.fsx
@@ -10,8 +10,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{449E52
 		..\Portable.Licensing.nuspec = ..\Portable.Licensing.nuspec
 		..\README.md = ..\README.md
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portable.Licensing.Tests", "Portable.Licensing.Tests\Portable.Licensing.Tests.csproj", "{16CEEFD4-62BF-4539-9A08-0D05EC695572}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7A7FE77C-2AD3-4322-ACE5-127CBA6553C7}"
 	ProjectSection(SolutionItems) = preProject
@@ -25,6 +23,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Xamarin", "Xamarin", "{BB17
 		..\Xamarin\Details.md = ..\Xamarin\Details.md
 		..\Xamarin\GettingStarted.md = ..\Xamarin\GettingStarted.md
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portable.Licensing", "Portable.Licensing\Portable.Licensing.csproj", "{6D2B800C-C252-4A33-BA05-904AE5B79417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portable.Licensing.Tests", "Portable.Licensing.Tests\Portable.Licensing.Tests.csproj", "{16CEEFD4-62BF-4539-9A08-0D05EC695572}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
